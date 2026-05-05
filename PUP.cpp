@@ -34,49 +34,49 @@ std::map<int, Entry> CPUP::GetEntriesMap()
 void CPUP::PopulateMaps()
 {
 	{
-		m_fileNames[1] = "eula.xml";//
-		m_fileNames[2] = "updatemode.elf";//
-		m_fileNames[3] = "emc_salina_a0.bin";//
-		m_fileNames[4] = "mbr.bin";//
-		m_fileNames[5] = "kernel.bin";//
-		m_fileNames[6] = "unk_06.bin";//
-		m_fileNames[7] = "unk_07.bin";//
-		m_fileNames[8] = "unk_08.bin";//
-		m_fileNames[9] = "unk_09.bin";//
-		m_fileNames[10] = "CP.bin";//
-		m_fileNames[11] = "titania.bls";//
-		m_fileNames[12] = "version_name.xml";//
-		m_fileNames[13] = "emc_salina_b0.bin";//
-		m_fileNames[14] = "eap_kbl.bin";//
-		m_fileNames[15] = "bd_firm_info.json";//
-		m_fileNames[16] = "emc_salina_c0.bls";//
-		m_fileNames[17] = "floyd_salina_c0.bls";//
-		m_fileNames[18] = "usb_pdc_salina_c0.bls";//
-		m_fileNames[20] = "emc_salina_d0.bls";//
-		m_fileNames[21] = "eap_kbl_2.bin";//
-		m_fileNames[22] = "font.zip";//
-		m_fileNames[256] = "ariel_a0.bin";//
-		m_fileNames[257] = "oberon_sec_ldr_a0.bin";//
-		m_fileNames[258] = "oberon_sec_ldr_b0.bin";//
-		m_fileNames[259] = "oberon_sec_ldr_c0.bin";//
-		m_fileNames[260] = "oberon_sec_ldr_d0.bin";//
-		m_fileNames[261] = "oberon_sec_ldr_f0.bin";//
-		m_fileNames[262] = "oberon_sec_ldr_e0.bin";//
-		m_fileNames[752] = "qa_test_1.pkg";//
-		m_fileNames[753] = "qa_test_2.pkg";//
-		m_fileNames[754] = "qa_test_3.pkg";//
+		m_fileNames[0x1] = "eula.xml";//
+		m_fileNames[0x2] = "updatemode.self";//
+		m_fileNames[0x3] = "emc_salina_a.bin";//
+		m_fileNames[0x4] = "mbr.bin";//
+		m_fileNames[0x5] = "kernel.bin";//
+		m_fileNames[0x6] = "unk_06.bin";//
+		m_fileNames[0x7] = "unk_07.bin";//
+		m_fileNames[0x8] = "unk_08.bin";//
+		m_fileNames[0x9] = "unk_09.bin";//
+		m_fileNames[0xa] = "CP.bin";//
+		m_fileNames[0xb] = "titania.bls";//
+		m_fileNames[0xc] = "version_name.xml";//
+		m_fileNames[0xd] = "emc_salina_b.bin";//
+		m_fileNames[0xe] = "eap_kbl.bin";//
+		m_fileNames[0xf] = "bd_firm_info.json";//
+		m_fileNames[0x10] = "emc_salina_c.bls";//
+		m_fileNames[0x11] = "floyd_salina_c.bls";//
+		m_fileNames[0x12] = "usb_pdc_salina_c.bls";//
+		m_fileNames[0x14] = "emc_salina_d.bls";//
+		m_fileNames[0x15] = "eap_kbl_2.bin";//
+		m_fileNames[0x16] = "font.zip";//
+		m_fileNames[0x100] = "ariel_sec_ldr_a.bin";//
+		m_fileNames[0x101] = "oberon_sec_ldr_a.bin";//
+		m_fileNames[0x102] = "oberon_sec_ldr_b.bin";//
+		m_fileNames[0x103] = "oberon_sec_ldr_c.bin";//
+		m_fileNames[0x104] = "oberon_sec_ldr_d.bin";//
+		m_fileNames[0x105] = "oberon_sec_ldr_e.bin";//
+		m_fileNames[0x106] = "oberon_sec_ldr_f.bin";//
+		m_fileNames[0x2f0] = "qa_test_1.pkg";//
+		m_fileNames[0x2f1] = "qa_test_2.pkg";//
+		m_fileNames[0x2f2] = "qa_test_3.pkg";//
 		
 	}
 	
 	{
-		m_deviceNames[512] = "/dev/unk_512.bin";//
-		m_deviceNames[513] = "/dev/wlanbt.bin";//impossible to handle without keys
-		m_deviceNames[514] = "/dev/unk_514.bin";//
-		m_deviceNames[515] = "/dev/ssd0.system_b";//impossible to handle without keys
-		m_deviceNames[516] = "/dev/ssd0.system_ex_b";//impossible to handle without keys
-		m_deviceNames[517] = "/dev/unk_517.bin";//
-		m_deviceNames[518] = "/dev/unk_518.bin";//
-		m_deviceNames[519] = "/dev/ssd0.preinst";//
+		m_deviceNames[0x200] = "/dev/unk_512.bin";//
+		m_deviceNames[0x201] = "/dev/wlanbt.bin";//impossible to handle without keys
+		m_deviceNames[0x202] = "/dev/unk_514.bin";//
+		m_deviceNames[0x203] = "/dev/ssd0.system_b";//impossible to handle without keys
+		m_deviceNames[0x204] = "/dev/ssd0.system_ex_b";//impossible to handle without keys
+		m_deviceNames[0x205] = "/dev/unk_517.bin";//
+		m_deviceNames[0x206] = "/dev/unk_518.bin";//
+		m_deviceNames[0x207] = "/dev/ssd0.preinst";//
 	}
 }
 
